@@ -1,12 +1,26 @@
 ```
-# Compiled Python files
+# Build artifacts and distributions
+dist/
+build/
+*.spec
+*.pkg
+*.pyz
+*.toc
+*.txt
+*.html
+
+# Python specific
 __pycache__/
 *.pyc
 *.pyo
+*.pyd
+
+# Executables
+*.exe
 
 # Logs
 *.log
 
-# Data files (assuming these are generated/output files)
-data/
+# Test output
+test_output.json
 ```
