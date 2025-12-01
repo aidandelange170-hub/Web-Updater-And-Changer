@@ -1,0 +1,12 @@
+```
+# Compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs
+*.log
+
+# Data files (assuming these are generated/output files)
+data/
+```

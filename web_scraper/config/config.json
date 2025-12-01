@@ -1,0 +1,19 @@
+{
+    "scraper_settings": {
+        "use_selenium": true,
+        "delay_between_requests": 1,
+        "timeout": 10,
+        "max_retries": 3,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+    },
+    "output_settings": {
+        "save_json": true,
+        "save_csv": true,
+        "output_directory": "data/",
+        "log_directory": "logs/"
+    },
+    "google_settings": {
+        "num_results": 10,
+        "search_delay": 2
+    }
+}
